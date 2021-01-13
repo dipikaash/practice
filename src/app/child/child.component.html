@@ -1,0 +1,6 @@
+<div class="child">child works!
+    <div>Hi {{username}}, the password is: {{data}}</div>
+    <button type="submit" (click)="sendData()">send password</button>
+    <button (click)="sendmessage()">send message</button>
+    <div *ngIf="gotReply">Reply: {{gotReply}}</div>
+</div>
